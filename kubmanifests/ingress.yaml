@@ -17,7 +17,7 @@ spec:
                 name: api-service
                 port:
                   number: 8000
-          - path: /otusapp/(Mansuri)|/otusapp/(Bakhter)
+          - path: /otusapp/Bakhter/health
             pathType: Prefix
             backend:
               service:
